@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<playerspawnpoints>
+     <fresh>
+        <!-- runtime parameters used when player is spawning -->
+        <spawn_params>
+            <!-- used to rate point against infected -->
+            <min_dist_infected>1.0</min_dist_infected>
+            <max_dist_infected>25.0</max_dist_infected>
+            <!-- used to rate point against other players -->
+            <min_dist_player>1.0</min_dist_player>
+            <max_dist_player>25.0</max_dist_player>
+            <!-- used to rate point against buildings -->
+            <min_dist_static>0.5</min_dist_static>
+            <max_dist_static>2.0</max_dist_static>
+        </spawn_params>
+        <generator_params>
+			<!-- Density of Grid Sampling -->
+             <grid_density>25</grid_density>
+            <!-- total width of grid in metres -->
+            <grid_width>50.0</grid_width>
+            <!-- total height of grid in metres -->
+            <grid_height>50.0</grid_height>
+            <!--  minimum distance from buildings for valid spawn point -->
+            <min_dist_static>0.5</min_dist_static>
+            <!--  maximum distance from buildings used to rate valid spawn point -->
+            <max_dist_static>2.0</max_dist_static>
+            <!-- terrain slope limits for valid spawn point -->
+            <min_steepness>-45</min_steepness>
+            <max_steepness>45</max_steepness>
+        </generator_params>
+        <group_params>
+            <enablegroups>true</enablegroups>
+            <lifetime>-1</lifetime>
+            <counter>1</counter>
+        </group_params>
+        <generator_posbubbles>
+            <group name="PrisonIsland01">
+				<pos x="2791.36" z="1210.65"/>
+			</group>
+			<group name="PrisonIsland02">
+				<pos x="2560.73" z="1330.03"/>
+			</group>
+			<group name="PrisonIsland03">
+				<pos x="2649.43" z="1313.69"/>
+			</group>
+			<group name="PrisonIsland04">
+				<pos x="2731.33" z="1299.15"/>
+			</group>
+        </generator_posbubbles>
+    </fresh>
+    <hop>
+        <generator_posbubbles>
+<!-- Place your spawn points here -->
+        </generator_posbubbles>
+    </hop>
+    <travel>
+        <generator_posbubbles>
+<!-- Place your spawn points here -->
+        </generator_posbubbles>
+    </travel>
+</playerspawnpoints>

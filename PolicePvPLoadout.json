@@ -1,0 +1,490 @@
+{
+    "spawnWeight": 3,
+    "name": "Player",
+	"characterTypes": [
+        "SurvivorM_Mirek",
+        "SurvivorM_Boris",
+        "SurvivorM_Cyril",
+        "SurvivorM_Denis",
+        "SurvivorM_Elias",
+        "SurvivorM_Francis",
+        "SurvivorM_Guo",
+        "SurvivorM_Hassan",
+        "SurvivorM_Indar",
+        "SurvivorM_Jose",
+        "SurvivorM_Kaito",
+        "SurvivorM_Lewis",
+        "SurvivorM_Manua",
+        "SurvivorM_Niki",
+        "SurvivorM_Oliver",
+        "SurvivorM_Peter",
+        "SurvivorM_Quinn",
+        "SurvivorM_Rolf",
+        "SurvivorM_Seth",
+        "SurvivorM_Taiki",
+        "SurvivorF_Eva",
+        "SurvivorF_Frida",
+        "SurvivorF_Gabi",
+        "SurvivorF_Helga",
+        "SurvivorF_Irena",
+        "SurvivorF_Judy",
+        "SurvivorF_Keiko",
+        "SurvivorF_Linda",
+        "SurvivorF_Maria",
+        "SurvivorF_Naomi",
+        "SurvivorF_Baty"
+    ],
+    "attachmentSlotItemSets": [
+        {
+            "slotName": "Hands",
+            "discreteItemSets": [
+                {
+                    "itemType": "Pipe",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 5  
+				},
+				{
+                    "itemType": "PipeWrench",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 5  
+				},
+				{
+                    "itemType": "LugWrench",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 5  
+				},
+				{
+                    "itemType": "Crowbar",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 5  
+				},
+				{
+                    "itemType": "BaseballBat",
+                    "spawnWeight": 2,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 5  
+				}
+            ]
+        },
+		{
+            "slotName": "Shoulder",
+            "discreteItemSets": [
+                {
+                    "itemType": "",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1  
+				}
+            ]
+        },
+		{
+            "slotName": "shoulderR",
+            "discreteItemSets": [
+                {
+                    "itemType": "",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1  
+				}
+            ]
+        },
+		{
+            "slotName": "Vest",
+            "discreteItemSets": [
+                {
+                    "itemType": "PoliceVest",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1  
+				}
+            ]
+        },
+		{
+            "slotName": "Body",
+            "discreteItemSets": [
+                {
+                    "itemType": "PoliceJacket",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1  
+				}
+            ]
+        },
+		{
+            "slotName": "Hips",
+            "discreteItemSets": [
+				{
+                    "itemType": "CivilianBelt",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "PlateCarrierHolster_Black",
+							"attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+							"complexChildrenTypes": [
+								{
+									"itemType": "CZ75",
+									"spawnWeight": 1,
+									"attributes": {
+										"healthMin": 1.0,
+										"healthMax": 1.0,
+										"quantityMin": 1.0,
+										"quantityMax": 1.0
+									},
+									"quickBarSlot": 6,
+									"complexChildrenTypes": [
+										{
+											"itemType": "Mag_CZ75_15Rnd",
+											"spawnWeight": 1,
+											"attributes": {
+												"healthMin": 1.0,
+												"healthMax": 1.0,
+												"quantityMin": 1.0,
+												"quantityMax": 1.0
+											},
+											"quickBarSlot": -1
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+                    "itemType": "CivilianBelt",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "PlateCarrierHolster_Black",
+							"attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+							"complexChildrenTypes": [
+								{
+									"itemType": "Glock19",
+									"spawnWeight": 1,
+									"attributes": {
+										"healthMin": 1.0,
+										"healthMax": 1.0,
+										"quantityMin": 1.0,
+										"quantityMax": 1.0
+									},
+									"quickBarSlot": 6,
+									"complexChildrenTypes": [
+										{
+											"itemType": "Mag_Glock_15Rnd",
+											"spawnWeight": 1,
+											"attributes": {
+												"healthMin": 1.0,
+												"healthMax": 1.0,
+												"quantityMin": 1.0,
+												"quantityMax": 1.0
+											},
+											"quickBarSlot": -1
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+            ]
+        },
+		{
+            "slotName": "Legs",
+            "discreteItemSets": [
+                {
+                    "itemType": "PolicePants",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1  
+				}
+            ]
+        },
+		{
+            "slotName": "Back",
+            "discreteItemSets": [
+                {
+                    "itemType": "",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1  
+				}
+            ]
+        },
+		{
+            "slotName": "Headgear",
+            "discreteItemSets": [
+                {
+                    "itemType": "PoliceCap",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1  
+				}
+            ]
+        },
+		{
+            "slotName": "Mask",
+            "discreteItemSets": [
+                {
+                    "itemType": "",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1  
+				}
+            ]
+        },
+		{
+            "slotName": "Eyewear",
+            "discreteItemSets": [
+                {
+                    "itemType": "ThinFramesGlasses",
+                    "spawnWeight": 2,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1  
+				},
+				{
+                    "itemType": "ThickFramesGlasses",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1  
+				},
+				{
+                    "itemType": "",
+                    "spawnWeight": 6,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1  
+				}
+            ]
+        },
+		{
+            "slotName": "Gloves",
+            "discreteItemSets": [
+                {
+                    "itemType": "WoolGloves_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1  
+				}
+            ]
+        },
+        {
+            "slotName": "Feet",
+            "discreteItemSets": [
+                {
+                    "itemType": "DressShoes_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+        {
+            "slotName": "Armband",
+            "discreteItemSets": [
+                {
+                    "itemType": "",
+                    "spawnWeight": 1,
+                    "attributes": {
+						"healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        }
+    ],
+    "discreteUnsortedItemSets": [
+		{
+			"name": "Cargo1",
+			"spawnWeight": 1,
+			"attributes": {
+				"healthMin": 1.0,
+				"healthMax": 1.0,
+				"quantityMin": 1.0,
+				"quantityMax": 1.0
+			},
+			"complexChildrenTypes": [
+				{
+					"itemType": "BandageDressing",
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": 1
+				},
+				{
+					"itemType": "WaterBottle",
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": 2
+				},
+				{
+					"itemType": "SardinesCan_Opened",
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": 3
+				},
+				{
+					"itemType": "Handcuffs",
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "HuntingKnife",
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": 4
+				},
+				{
+					"itemType": "HandcuffKeys",
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				}
+			]
+		}
+    ]
+}
